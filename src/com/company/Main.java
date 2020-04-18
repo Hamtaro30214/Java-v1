@@ -20,10 +20,14 @@ public class Main {
         System.out.println(me.pet.species);
 
         me.pet = new Animal("Lion");
-        me.pet.name = "WielkiKot4";
+        me.pet.name = "WielkiKot";
 
         me.pet.feed();
 
         System.out.println(me.pet.species);
+        me.pet.takeForAWake();
+
+        me.pet.takeForAWake();
+        me.pet.takeForAWake();
     }
 }
