@@ -20,7 +20,7 @@ public class Main {
         System.out.println(me.pet.species);
 
         me.pet = new Animal("Lion");
-        me.pet.name = "WielkiKot3";
+        me.pet.name = "WielkiKot4";
 
         me.pet.feed();
 
