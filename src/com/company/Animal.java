@@ -22,7 +22,7 @@ public class Animal {
 
     void feed() {
         if (weight >= 0) {
-            System.out.println("blad");
+            System.out.println("Zbyt mala waga");
         } else {
             weight += 0.1;
             System.out.println("Thx bro, my weight is now " + weight);
